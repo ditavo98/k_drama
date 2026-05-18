@@ -28,7 +28,7 @@
   "discovery_completion_score": 0,
   "active_blueprint_view": "screen",
   "version": 1,
-  "last_saved_at": "2026-05-18T04:34:14.371Z",
+  "last_saved_at": "2026-05-18T04:41:35.788Z",
   "directory": "/Users/metadev/BlueforgeProjects/k_drama",
   "blueprint_versions": {
     "counters": {
@@ -73,9 +73,20 @@
         "tasksDone": 1,
         "errors": 0,
         "timestamp": "2026-05-18T04:34:13.959Z",
-        "deployed": false,
+        "deployed": true,
         "id": "build_2_1779078853961",
         "number": 2
+      },
+      {
+        "status": "success",
+        "summary": "Build succeeded",
+        "tasksTotal": 1,
+        "tasksDone": 1,
+        "errors": 0,
+        "timestamp": "2026-05-18T04:41:35.346Z",
+        "deployed": false,
+        "id": "build_3_1779079295348",
+        "number": 3
       }
     ],
     "test": {
@@ -88,7 +99,7 @@
       "synced_build": null
     },
     "deploy": {
-      "domain_provider": "vercel",
+      "domain_provider": "github_pages",
       "ssl": "auto",
       "cdn": null
     },
