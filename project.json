@@ -28,7 +28,7 @@
   "discovery_completion_score": 0,
   "active_blueprint_view": "screen",
   "version": 1,
-  "last_saved_at": "2026-05-18T04:19:57.259Z",
+  "last_saved_at": "2026-05-18T04:23:12.361Z",
   "directory": "/Users/metadev/BlueforgeProjects/k_drama",
   "blueprint_versions": {
     "counters": {
@@ -77,7 +77,7 @@
       "synced_build": null
     },
     "deploy": {
-      "domain_provider": null,
+      "domain_provider": "vercel",
       "ssl": "auto",
       "cdn": null
     },

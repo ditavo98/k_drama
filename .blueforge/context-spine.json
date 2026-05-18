@@ -2,7 +2,7 @@
   "version": 1,
   "projectId": "",
   "createdAt": "2026-05-18T03:39:25.169Z",
-  "lastUpdatedAt": "2026-05-18T04:21:54.811Z",
+  "lastUpdatedAt": "2026-05-18T04:22:59.045Z",
   "decisions": [
     {
       "type": "general",
@@ -239,6 +239,17 @@
       "timestamp": "2026-05-18T04:13:44.642Z",
       "toolsSummary": "",
       "id": "s-1779077626836-gorf"
+    },
+    {
+      "workflowId": "24150d48-caf5-42e5-b81e-699f51e177b9",
+      "roleId": "coder",
+      "summary": "Chưa có SSH key nào. Bạn chạy lần lượt các lệnh sau trong terminal:\n\n```bash\n# Bước 1: Tạo SSH key (Enter 3 lần để dùng mặc định, không passphrase)\nssh-keygen -t ed25519 -C \"dita.vo@metacrew.vn\"\n\n# Bư",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": true,
+      "timestamp": "2026-05-18T04:22:48.414Z",
+      "toolsSummary": "",
+      "id": "s-1779078170589-24tl"
     }
   ],
   "sessions": []
