@@ -2,7 +2,7 @@
   "version": 1,
   "projectId": "",
   "createdAt": "2026-05-18T03:39:25.169Z",
-  "lastUpdatedAt": "2026-05-18T04:08:32.946Z",
+  "lastUpdatedAt": "2026-05-18T04:16:50.958Z",
   "decisions": [
     {
       "type": "general",
@@ -63,6 +63,74 @@
       "id": "d-1779077310938-ac0f",
       "createdAt": "2026-05-18T04:08:30.938Z",
       "updatedAt": "2026-05-18T04:08:30.938Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: fatal: not a git repository (or any of the parent directories): .git",
+      "description": "fatal: not a git repository (or any of the parent directories): .git",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077474382-861n",
+      "createdAt": "2026-05-18T04:11:14.382Z",
+      "updatedAt": "2026-05-18T04:11:14.382Z"
+    },
+    {
+      "type": "general",
+      "title": "deepseek-v4-pro: fatal: not a git repository (or any of the parent directories): .git",
+      "description": "Ah, I see the issue. Your project directory `/Users/metadev/BlueforgeProjects/k_drama` doesn't have a Git repository initialized yet. That's why you're getting the \"not a git repository\" error.\n\nHere's what you need to do to fix that:\n\n**Step 1: Initialize Git**\n```bash\ncd /Users/metadev/BlueforgePr",
+      "status": "completed",
+      "source": "agent",
+      "tags": [
+        "deepseek-v4-pro",
+        "conversation"
+      ],
+      "id": "d-1779077484329-lm72",
+      "createdAt": "2026-05-18T04:11:24.329Z",
+      "updatedAt": "2026-05-18T04:11:24.329Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: tôi tạo repo rồi mà",
+      "description": "tôi tạo repo rồi mà",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077581991-ahic",
+      "createdAt": "2026-05-18T04:13:01.991Z",
+      "updatedAt": "2026-05-18T04:13:01.991Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: tôi không đăng nhập được là sao",
+      "description": "tôi không đăng nhập được là sao",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077767964-mnc0",
+      "createdAt": "2026-05-18T04:16:07.964Z",
+      "updatedAt": "2026-05-18T04:16:07.964Z"
+    },
+    {
+      "type": "general",
+      "title": "deepseek-v4-pro: tôi không đăng nhập được là sao",
+      "description": "Chào bạn! Tôi hiểu bạn đang gặp vấn đề với việc đăng nhập vào ứng dụng K-Drama.\n\nHiện tại ứng dụng của bạn đang chạy ở **http://localhost:3000/** và sử dụng TMDb API để lấy dữ liệu phim Hàn Quốc. Tuy nhiên, tôi chưa thấy có hệ thống đăng nhập (authentication) nào được triển khai trong code cả.\n\n**Bạ",
+      "status": "completed",
+      "source": "agent",
+      "tags": [
+        "deepseek-v4-pro",
+        "conversation"
+      ],
+      "id": "d-1779077781389-ezn1",
+      "createdAt": "2026-05-18T04:16:21.389Z",
+      "updatedAt": "2026-05-18T04:16:21.389Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: không đăng nhâp commit code được",
+      "description": "không đăng nhâp commit code được",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077808913-kgy9",
+      "createdAt": "2026-05-18T04:16:48.910Z",
+      "updatedAt": "2026-05-18T04:16:48.910Z"
     }
   ],
   "stageHistory": [
@@ -123,6 +191,30 @@
       "timestamp": "2026-05-18T04:07:45.907Z",
       "toolsSummary": "",
       "id": "s-1779077267720-utxe"
+    },
+    {
+      "workflowId": "ecd8bd98-5d22-409a-9a79-4c7408185573",
+      "roleId": "coder",
+      "summary": "Không còn action nào cần thực hiện — git status đã clean, 2 commits đã được tạo thành công. Nếu bạn muốn push lên GitHub, hãy tạo repo trên GitHub rồi chạy:\n\n```bash\ngit remote add origin <your-repo-u",
+      "filesWritten": [
+        ".gitignore"
+      ],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": true,
+      "timestamp": "2026-05-18T04:09:28.677Z",
+      "toolsSummary": "",
+      "id": "s-1779077370532-h68h"
+    },
+    {
+      "workflowId": "76f97962-de3f-4075-8ecf-a669f7d86a30",
+      "roleId": "coder",
+      "summary": "Repo của bạn **đã có và hoạt động tốt** — `.git` tồn tại, branch `main`, đã có 2 commits:\n\n```\n3512c06 chore: add .gitignore, remove node_modules & dist from tracking\n7ac7dd9 feat: K-무비 한국 영화 앱 - iOS ",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": true,
+      "timestamp": "2026-05-18T04:13:44.642Z",
+      "toolsSummary": "",
+      "id": "s-1779077626836-gorf"
     }
   ],
   "sessions": []

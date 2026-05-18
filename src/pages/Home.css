@@ -1,14 +1,14 @@
 .home {
   padding-bottom: 80px;
-  padding-bottom: calc(80px + var(--safe-inset-bottom));
+  padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
 }
 
 .home__section {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 60px 24px 0;
-  padding-left: calc(24px + var(--safe-inset-left));
-  padding-right: calc(24px + var(--safe-inset-right));
+  padding-left: max(24px, env(safe-area-inset-left, 0px));
+  padding-right: max(24px, env(safe-area-inset-right, 0px));
 }
 
 .home__section-header {
@@ -70,8 +70,8 @@
 @media (max-width: 768px) {
   .home__section {
     padding: 40px 16px 0;
-    padding-left: calc(16px + var(--safe-inset-left));
-    padding-right: calc(16px + var(--safe-inset-right));
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
   }
 
   .home__section-title {

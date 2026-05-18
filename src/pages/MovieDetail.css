@@ -1,8 +1,9 @@
 .detail {
   min-height: 100vh;
-  min-height: -webkit-fill-available;
+  min-height: 100dvh;
   padding-bottom: 80px;
-  padding-bottom: calc(80px + var(--safe-inset-bottom));
+  padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  background: var(--color-bg-primary);
 }
 
 .detail--loading {
@@ -18,7 +19,7 @@
   border-top-color: var(--color-accent);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
-  margin-top: 100px;
+  margin-top: calc(var(--navbar-height, 64px) + env(safe-area-inset-top, 0px) + 40px);
 }
 
 @keyframes spin {
@@ -27,7 +28,7 @@
 
 .detail__error {
   text-align: center;
-  margin-top: 120px;
+  margin-top: calc(var(--navbar-height, 64px) + env(safe-area-inset-top, 0px) + 80px);
 }
 
 .detail__error p {
@@ -69,7 +70,7 @@
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(10, 10, 15, 0.4) 0%,
+    rgba(10, 10, 15, 0.5) 0%,
     rgba(10, 10, 15, 0.7) 60%,
     var(--color-bg-primary) 100%
   );
@@ -79,9 +80,9 @@
 .detail__content {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: calc(64px + var(--safe-inset-top)) 24px 0;
-  padding-left: calc(24px + var(--safe-inset-left));
-  padding-right: calc(24px + var(--safe-inset-right));
+  padding: 0 24px;
+  padding-left: max(24px, env(safe-area-inset-left, 0px));
+  padding-right: max(24px, env(safe-area-inset-right, 0px));
   position: relative;
   z-index: 2;
   margin-top: -120px;
@@ -321,6 +322,7 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
+  padding: max(24px, env(safe-area-inset-top, 0px)) max(24px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(24px, env(safe-area-inset-left, 0px));
   animation: fadeIn 0.3s ease;
 }
 
@@ -375,9 +377,9 @@
 
   .detail__content {
     margin-top: -60px;
-    padding: calc(48px + var(--safe-inset-top)) 16px 0;
-    padding-left: calc(16px + var(--safe-inset-left));
-    padding-right: calc(16px + var(--safe-inset-right));
+    padding: 0 16px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
   }
 
   .detail__main {
