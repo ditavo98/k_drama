@@ -1,0 +1,114 @@
+{
+  "profile": {
+    "id": "99a12749-4abd-4434-9e8b-8768ff1866b5",
+    "name": "k_drama",
+    "description": "",
+    "project_type": "web_app",
+    "industry": "other",
+    "skill_level": "beginner",
+    "created_at": "2026-05-18T03:38:52.088Z",
+    "updated_at": "2026-05-18T03:38:52.088Z"
+  },
+  "goals": [],
+  "roles": [],
+  "features": [],
+  "screens": [],
+  "flows": [],
+  "components": [],
+  "data_entities": [],
+  "apis": [],
+  "integrations": [],
+  "workstreams": [],
+  "milestones": [],
+  "open_questions": [],
+  "conflicts": [],
+  "design_tokens": [],
+  "deployment_targets": [],
+  "discovery_state": "not_started",
+  "discovery_completion_score": 0,
+  "active_blueprint_view": "screen",
+  "version": 1,
+  "last_saved_at": "2026-05-18T04:07:26.108Z",
+  "directory": "/Users/metadev/BlueforgeProjects/k_drama",
+  "blueprint_versions": {
+    "counters": {
+      "S": 0,
+      "F": 0,
+      "A": 0,
+      "P": 0,
+      "D": 0
+    },
+    "snapshots": []
+  },
+  "launch_checklist": {
+    "source_control": {
+      "provider": "github",
+      "connected": true,
+      "repo_name": "k_drama",
+      "branch_strategy": "main_only",
+      "username": "ditavo98"
+    },
+    "infrastructure": {
+      "backend": null,
+      "frontend": null,
+      "database": null,
+      "combo": null
+    },
+    "build_history": [
+      {
+        "status": "success",
+        "summary": "Build succeeded",
+        "tasksTotal": 1,
+        "tasksDone": 1,
+        "errors": 0,
+        "timestamp": "2026-05-18T04:07:25.700Z",
+        "deployed": false,
+        "id": "build_1_1779077245700",
+        "number": 1
+      }
+    ],
+    "test": {
+      "enabled": [],
+      "items": [],
+      "mode": "manual"
+    },
+    "docs": {
+      "enabled": [],
+      "synced_build": null
+    },
+    "deploy": {
+      "domain_provider": null,
+      "ssl": "auto",
+      "cdn": null
+    },
+    "monitor": {
+      "monitoring": null,
+      "analytics": null,
+      "monitoring_config": null,
+      "analytics_config": null
+    },
+    "visual_design": {
+      "preset": null,
+      "colors": {
+        "primary": "#4B7BF5",
+        "secondary": "#64748b",
+        "accent": "#f59e0b",
+        "background": "#ffffff",
+        "surface": "#f8fafc",
+        "error": "#ef4444"
+      },
+      "typography": {
+        "heading": "Inter",
+        "body": "Inter",
+        "mono": "JetBrains Mono"
+      },
+      "logo": {
+        "path": null,
+        "name": null
+      },
+      "theme_mode": "system",
+      "border_radius": "md",
+      "figma_url": null
+    }
+  }
+}

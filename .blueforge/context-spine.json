@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "projectId": "",
+  "createdAt": "2026-05-18T03:39:25.169Z",
+  "lastUpdatedAt": "2026-05-18T04:08:32.946Z",
+  "decisions": [
+    {
+      "type": "general",
+      "title": "User request: create the korean movie app",
+      "description": "create the korean movie app",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779075565174-aewp",
+      "createdAt": "2026-05-18T03:39:25.174Z",
+      "updatedAt": "2026-05-18T03:39:25.174Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: tôi không xem được preview",
+      "description": "tôi không xem được preview",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076376829-c9wn",
+      "createdAt": "2026-05-18T03:52:56.829Z",
+      "updatedAt": "2026-05-18T03:52:56.829Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: Kiểm tra lại UI app đang bị overlap khi chạy trên ios",
+      "description": "Kiểm tra lại UI app đang bị overlap khi chạy trên ios",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076645453-rk7o",
+      "createdAt": "2026-05-18T03:57:25.453Z",
+      "updatedAt": "2026-05-18T03:57:25.453Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: bị overlap trên top nè",
+      "description": "bị overlap trên top nè",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076962518-c8p9",
+      "createdAt": "2026-05-18T04:02:42.518Z",
+      "updatedAt": "2026-05-18T04:02:42.518Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: ",
+      "description": "",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076979806-c2yh",
+      "createdAt": "2026-05-18T04:02:59.806Z",
+      "updatedAt": "2026-05-18T04:02:59.806Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: giờ làm sao để commit code",
+      "description": "giờ làm sao để commit code",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077310938-ac0f",
+      "createdAt": "2026-05-18T04:08:30.938Z",
+      "updatedAt": "2026-05-18T04:08:30.938Z"
+    }
+  ],
+  "stageHistory": [
+    {
+      "workflowId": "2a3677f4-dd0d-40eb-9f3e-43c9c4eab81f",
+      "roleId": "coder",
+      "summary": "Stage coder timed out after 300s",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": false,
+      "timestamp": "2026-05-18T03:44:26.340Z",
+      "toolsSummary": "",
+      "id": "s-1779075868365-3va6"
+    },
+    {
+      "workflowId": "c0485881-dfea-4ff5-8878-547d355750c1",
+      "roleId": "coder",
+      "summary": "App đang hoạt động bình thường tại **http://localhost:3000/** (HTTP 200). Vấn đề trước đây là thiếu file `src/App.tsx` — đã được tạo với đầy đủ routes. Bạn có thể mở trình duyệt và xem preview ngay bâ",
+      "filesWritten": [
+        "src/main.tsx",
+        "src/services/api.ts",
+        "src/pages/Home.tsx",
+        "src/components/Navbar.tsx",
+        "src/components/Hero.tsx",
+        "src/pages/TopRated.tsx",
+        "src/pages/Trending.tsx",
+        "src/pages/Search.tsx",
+        "src/components/Navbar.css",
+        "src/components/Hero.css",
+        "src/App.tsx",
+        "public/placeholder.jpg",
+        "public/placeholder.svg"
+      ],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": true,
+      "timestamp": "2026-05-18T03:55:58.365Z",
+      "toolsSummary": "",
+      "id": "s-1779076560914-3e5b"
+    },
+    {
+      "workflowId": "5be5a984-87ce-4c0e-b3b0-88c3cdfcd82f",
+      "roleId": "coder",
+      "summary": "Stage coder timed out after 300s",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": false,
+      "timestamp": "2026-05-18T04:02:27.801Z",
+      "toolsSummary": "",
+      "id": "s-1779076950873-b347"
+    },
+    {
+      "workflowId": "f4f95869-cc16-4d66-b42d-e0090885fa17",
+      "roleId": "coder",
+      "summary": "Stage coder timed out after 300s",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": false,
+      "timestamp": "2026-05-18T04:07:45.907Z",
+      "toolsSummary": "",
+      "id": "s-1779077267720-utxe"
+    }
+  ],
+  "sessions": []
+}
