@@ -2,7 +2,7 @@
   "version": 1,
   "projectId": "",
   "createdAt": "2026-05-18T03:39:25.169Z",
-  "lastUpdatedAt": "2026-05-18T04:17:12.049Z",
+  "lastUpdatedAt": "2026-05-18T04:21:54.811Z",
   "decisions": [
     {
       "type": "general",
@@ -145,6 +145,16 @@
       "id": "d-1779077830013-fj3u",
       "createdAt": "2026-05-18T04:17:10.007Z",
       "updatedAt": "2026-05-18T04:17:10.007Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: metadev@Metacrews-Mac k_drama % git remote -v                              \norig",
+      "description": "metadev@Metacrews-Mac k_drama % git remote -v                              \norigin  https://github.com/ditavo98/k_drama.git (fetch)\norigin  https://github.com/ditavo98/k_drama.git (push)",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779078112806-i4o6",
+      "createdAt": "2026-05-18T04:21:52.806Z",
+      "updatedAt": "2026-05-18T04:21:52.806Z"
     }
   ],
   "stageHistory": [
