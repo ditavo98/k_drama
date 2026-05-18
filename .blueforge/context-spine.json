@@ -2,7 +2,7 @@
   "version": 1,
   "projectId": "",
   "createdAt": "2026-05-18T03:39:25.169Z",
-  "lastUpdatedAt": "2026-05-18T04:22:59.045Z",
+  "lastUpdatedAt": "2026-05-18T04:24:25.665Z",
   "decisions": [
     {
       "type": "general",
@@ -155,6 +155,26 @@
       "id": "d-1779078112806-i4o6",
       "createdAt": "2026-05-18T04:21:52.806Z",
       "updatedAt": "2026-05-18T04:21:52.806Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: ",
+      "description": "",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779078235554-7wgb",
+      "createdAt": "2026-05-18T04:23:55.554Z",
+      "updatedAt": "2026-05-18T04:23:55.554Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: fix cái lỗi đó",
+      "description": "fix cái lỗi đó",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779078263662-1l0t",
+      "createdAt": "2026-05-18T04:24:23.662Z",
+      "updatedAt": "2026-05-18T04:24:23.662Z"
     }
   ],
   "stageHistory": [
