@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "projectId": "",
+  "createdAt": "2026-05-18T03:39:25.169Z",
+  "lastUpdatedAt": "2026-05-18T04:21:54.811Z",
+  "decisions": [
+    {
+      "type": "general",
+      "title": "User request: create the korean movie app",
+      "description": "create the korean movie app",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779075565174-aewp",
+      "createdAt": "2026-05-18T03:39:25.174Z",
+      "updatedAt": "2026-05-18T03:39:25.174Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: tôi không xem được preview",
+      "description": "tôi không xem được preview",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076376829-c9wn",
+      "createdAt": "2026-05-18T03:52:56.829Z",
+      "updatedAt": "2026-05-18T03:52:56.829Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: Kiểm tra lại UI app đang bị overlap khi chạy trên ios",
+      "description": "Kiểm tra lại UI app đang bị overlap khi chạy trên ios",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076645453-rk7o",
+      "createdAt": "2026-05-18T03:57:25.453Z",
+      "updatedAt": "2026-05-18T03:57:25.453Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: bị overlap trên top nè",
+      "description": "bị overlap trên top nè",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076962518-c8p9",
+      "createdAt": "2026-05-18T04:02:42.518Z",
+      "updatedAt": "2026-05-18T04:02:42.518Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: ",
+      "description": "",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779076979806-c2yh",
+      "createdAt": "2026-05-18T04:02:59.806Z",
+      "updatedAt": "2026-05-18T04:02:59.806Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: giờ làm sao để commit code",
+      "description": "giờ làm sao để commit code",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077310938-ac0f",
+      "createdAt": "2026-05-18T04:08:30.938Z",
+      "updatedAt": "2026-05-18T04:08:30.938Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: fatal: not a git repository (or any of the parent directories): .git",
+      "description": "fatal: not a git repository (or any of the parent directories): .git",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077474382-861n",
+      "createdAt": "2026-05-18T04:11:14.382Z",
+      "updatedAt": "2026-05-18T04:11:14.382Z"
+    },
+    {
+      "type": "general",
+      "title": "deepseek-v4-pro: fatal: not a git repository (or any of the parent directories): .git",
+      "description": "Ah, I see the issue. Your project directory `/Users/metadev/BlueforgeProjects/k_drama` doesn't have a Git repository initialized yet. That's why you're getting the \"not a git repository\" error.\n\nHere's what you need to do to fix that:\n\n**Step 1: Initialize Git**\n```bash\ncd /Users/metadev/BlueforgePr",
+      "status": "completed",
+      "source": "agent",
+      "tags": [
+        "deepseek-v4-pro",
+        "conversation"
+      ],
+      "id": "d-1779077484329-lm72",
+      "createdAt": "2026-05-18T04:11:24.329Z",
+      "updatedAt": "2026-05-18T04:11:24.329Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: tôi tạo repo rồi mà",
+      "description": "tôi tạo repo rồi mà",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077581991-ahic",
+      "createdAt": "2026-05-18T04:13:01.991Z",
+      "updatedAt": "2026-05-18T04:13:01.991Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: tôi không đăng nhập được là sao",
+      "description": "tôi không đăng nhập được là sao",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077767964-mnc0",
+      "createdAt": "2026-05-18T04:16:07.964Z",
+      "updatedAt": "2026-05-18T04:16:07.964Z"
+    },
+    {
+      "type": "general",
+      "title": "deepseek-v4-pro: tôi không đăng nhập được là sao",
+      "description": "Chào bạn! Tôi hiểu bạn đang gặp vấn đề với việc đăng nhập vào ứng dụng K-Drama.\n\nHiện tại ứng dụng của bạn đang chạy ở **http://localhost:3000/** và sử dụng TMDb API để lấy dữ liệu phim Hàn Quốc. Tuy nhiên, tôi chưa thấy có hệ thống đăng nhập (authentication) nào được triển khai trong code cả.\n\n**Bạ",
+      "status": "completed",
+      "source": "agent",
+      "tags": [
+        "deepseek-v4-pro",
+        "conversation"
+      ],
+      "id": "d-1779077781389-ezn1",
+      "createdAt": "2026-05-18T04:16:21.389Z",
+      "updatedAt": "2026-05-18T04:16:21.389Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: không đăng nhâp commit code được",
+      "description": "không đăng nhâp commit code được",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779077808913-kgy9",
+      "createdAt": "2026-05-18T04:16:48.910Z",
+      "updatedAt": "2026-05-18T04:16:48.910Z"
+    },
+    {
+      "type": "general",
+      "title": "deepseek-v4-pro: không đăng nhâp commit code được",
+      "description": "Chào bạn,\n\nBạn đang gặp vấn đề với việc đăng nhập để commit code phải không? Để mình giúp bạn rõ hơn nhé.\n\nTheo những gì mình thấy, repository Git của bạn **đã được khởi tạo thành công** và đã có 2 commits trên branch `main`. Vậy vấn đề \"không đăng nhập được\" có thể là một trong những trường hợp sau",
+      "status": "completed",
+      "source": "agent",
+      "tags": [
+        "deepseek-v4-pro",
+        "conversation"
+      ],
+      "id": "d-1779077830013-fj3u",
+      "createdAt": "2026-05-18T04:17:10.007Z",
+      "updatedAt": "2026-05-18T04:17:10.007Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: metadev@Metacrews-Mac k_drama % git remote -v                              \norig",
+      "description": "metadev@Metacrews-Mac k_drama % git remote -v                              \norigin  https://github.com/ditavo98/k_drama.git (fetch)\norigin  https://github.com/ditavo98/k_drama.git (push)",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1779078112806-i4o6",
+      "createdAt": "2026-05-18T04:21:52.806Z",
+      "updatedAt": "2026-05-18T04:21:52.806Z"
+    }
+  ],
+  "stageHistory": [
+    {
+      "workflowId": "2a3677f4-dd0d-40eb-9f3e-43c9c4eab81f",
+      "roleId": "coder",
+      "summary": "Stage coder timed out after 300s",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": false,
+      "timestamp": "2026-05-18T03:44:26.340Z",
+      "toolsSummary": "",
+      "id": "s-1779075868365-3va6"
+    },
+    {
+      "workflowId": "c0485881-dfea-4ff5-8878-547d355750c1",
+      "roleId": "coder",
+      "summary": "App đang hoạt động bình thường tại **http://localhost:3000/** (HTTP 200). Vấn đề trước đây là thiếu file `src/App.tsx` — đã được tạo với đầy đủ routes. Bạn có thể mở trình duyệt và xem preview ngay bâ",
+      "filesWritten": [
+        "src/main.tsx",
+        "src/services/api.ts",
+        "src/pages/Home.tsx",
+        "src/components/Navbar.tsx",
+        "src/components/Hero.tsx",
+        "src/pages/TopRated.tsx",
+        "src/pages/Trending.tsx",
+        "src/pages/Search.tsx",
+        "src/components/Navbar.css",
+        "src/components/Hero.css",
+        "src/App.tsx",
+        "public/placeholder.jpg",
+        "public/placeholder.svg"
+      ],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": true,
+      "timestamp": "2026-05-18T03:55:58.365Z",
+      "toolsSummary": "",
+      "id": "s-1779076560914-3e5b"
+    },
+    {
+      "workflowId": "5be5a984-87ce-4c0e-b3b0-88c3cdfcd82f",
+      "roleId": "coder",
+      "summary": "Stage coder timed out after 300s",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": false,
+      "timestamp": "2026-05-18T04:02:27.801Z",
+      "toolsSummary": "",
+      "id": "s-1779076950873-b347"
+    },
+    {
+      "workflowId": "f4f95869-cc16-4d66-b42d-e0090885fa17",
+      "roleId": "coder",
+      "summary": "Stage coder timed out after 300s",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": false,
+      "timestamp": "2026-05-18T04:07:45.907Z",
+      "toolsSummary": "",
+      "id": "s-1779077267720-utxe"
+    },
+    {
+      "workflowId": "ecd8bd98-5d22-409a-9a79-4c7408185573",
+      "roleId": "coder",
+      "summary": "Không còn action nào cần thực hiện — git status đã clean, 2 commits đã được tạo thành công. Nếu bạn muốn push lên GitHub, hãy tạo repo trên GitHub rồi chạy:\n\n```bash\ngit remote add origin <your-repo-u",
+      "filesWritten": [
+        ".gitignore"
+      ],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": true,
+      "timestamp": "2026-05-18T04:09:28.677Z",
+      "toolsSummary": "",
+      "id": "s-1779077370532-h68h"
+    },
+    {
+      "workflowId": "76f97962-de3f-4075-8ecf-a669f7d86a30",
+      "roleId": "coder",
+      "summary": "Repo của bạn **đã có và hoạt động tốt** — `.git` tồn tại, branch `main`, đã có 2 commits:\n\n```\n3512c06 chore: add .gitignore, remove node_modules & dist from tracking\n7ac7dd9 feat: K-무비 한국 영화 앱 - iOS ",
+      "filesWritten": [],
+      "modelUsed": "MiMo-V2.5-Pro",
+      "success": true,
+      "timestamp": "2026-05-18T04:13:44.642Z",
+      "toolsSummary": "",
+      "id": "s-1779077626836-gorf"
+    }
+  ],
+  "sessions": []
+}
